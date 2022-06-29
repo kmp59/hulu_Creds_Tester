@@ -1,4 +1,4 @@
-from FileManager import FileManager
+from Processes.FileManager import FileManager
 
 
 class TextFilter:

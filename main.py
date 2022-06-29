@@ -1,6 +1,5 @@
-from FileManager import FileManager
-from SeleniumDriver import SeleniumDriver
-from TextFilter import TextFilter
+from Processes.FileManager import FileManager
+from Processes.SeleniumDriver import SeleniumDriver
 
 baseURL = "https://auth.hulu.com/web/login?next=https%3A%2F%2Fwww.hulu.com%2Fwelcome"
 lineCount = 0
